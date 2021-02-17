@@ -93,5 +93,5 @@
 
 Затем я сгенерировала набор комбинаций на основе попарного сочетания всех значений всех параметров с помощью инструмента PICT. Этот инструмент и техника pairwise testing позволили сократить количество необходимых тест-кейсов до 625, тем самым оптимизировав процесс тестирования.
 
-<img src="https://user-images.githubusercontent.com/78635647/108240581-0a612280-715c-11eb-8bf6-e40128562c75.png" width="450">
-<img src="https://user-images.githubusercontent.com/78635647/108240943-61ff8e00-715c-11eb-8902-3231855b79af.png" width="450">
+<img src="https://user-images.githubusercontent.com/78635647/108240581-0a612280-715c-11eb-8bf6-e40128562c75.png" width="550">
+<img src="https://user-images.githubusercontent.com/78635647/108240943-61ff8e00-715c-11eb-8902-3231855b79af.png" width="550">

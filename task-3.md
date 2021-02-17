@@ -64,10 +64,10 @@
             6. xxxxxxxxxxx@xxxxxxxx.com (255 в сумме в локальной и доменной части)
             7. xxx xxxxx@domain.com (пробел в локальной части)
             8. xxxxxxxx@domain com (пробел вместо точки в домене)
-            9. x..x@domain.com(две точки подряд в локальной части)
+            9. x..x@domain.com (две точки подряд в локальной части)
             10. xxxxx@domain.com. (email с точкой в конце домена)
-            11. xxxxx@.domain.com(email с точкой в начале домена)
-            12. xxxxx@domain..com(email с точкой перед доменным именем первого уровня)
+            11. xxxxx@.domain.com (email с точкой в начале домена)
+            12. xxxxx@domain..com (email с точкой перед доменным именем первого уровня)
             13. xxxx<>xx()@domain.com (запрещенные спецсимволы)
 
 #### Пароль 

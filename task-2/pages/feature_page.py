@@ -39,11 +39,6 @@ class FeaturePage(BasePage):
             assert lst[i].text == lst2[i]
         self.switch_tab(*FeaturePageLocators.LINE_CHOOSER_TAB)
         self.scroll_up()
-        # if self.is_element_present(*FeaturePageLocators.MORE_BUTTON):
-        #     self.browser.find_element(*FeaturePageLocators.MORE_BUTTON).click()
-        #     self.browser.find_element(*FeaturePageLocators.MORE_BUTTON).click()
-        # element = self.browser.find_element(*FeaturePageLocators.LINE_CHOOSER_TAB)
-        # self.browser.execute_script("arguments[0].click();", element)
         lst3 = self.browser.find_elements(*FeaturePageLocators.LINES_CHOSEN)
         for i in range(len(lst3)):
             self.browser.execute_script("arguments[0];", lst[i])

@@ -23,3 +23,4 @@ class FeaturePageLocators:
     TABS_GROUP = (By.CSS_SELECTOR, '[data-marker="metro-select-dialog/tabs"]')
     SUBWAY_SEARCH_BOX = (By.CSS_SELECTOR, '[data-marker="metro-select-dialog/search"]')
     CITY_SUGGESTED = (By.CLASS_NAME, "_3z8Zi")
+    MORE_BUTTON = (By.CSS_SELECTOR, '[data-marker="metro-select-dialog/chips/more"]') 

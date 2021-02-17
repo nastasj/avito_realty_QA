@@ -50,11 +50,9 @@ class FeaturePage(BasePage):
 
     def choice_should_repeat_line_tab_lines_should_not_extend(self):
         choice = self.one_random_station_should_be_chosen_from_alphabet_list()
-        print(choice)
         self.scroll_up()
         self.switch_tab(*FeaturePageLocators.LINE_CHOOSER_TAB)
         choice2 = self.browser.find_element(*FeaturePageLocators.STATION_LINES_LIST_WITH_CHECKBOXES).get_attribute('textContent')
-        print(choice2)
         assert len(self.browser.find_elements(*FeaturePageLocators.LIST_EXTENDED)) == 0 and choice == choice2
 
     def reset_button_should_be_disabled(self):
@@ -70,7 +68,6 @@ class FeaturePage(BasePage):
     def correct_words_should_be_on_choice_button(self):
         lst = self.some_random_stations_should_be_chosen_from_alphabet_list()
         button = self.browser.find_element(*FeaturePageLocators.FLOATING_BUTTON).text
-        print(button)
         if len(lst) % 10 in (0, 5, 6, 7, 8, 9) or len(lst) in (11, 12, 13, 14):
             assert button == (f"Выбрать {len(lst)} станций")
         elif len(lst) % 10 in (2, 3, 4):

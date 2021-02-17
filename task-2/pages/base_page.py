@@ -100,7 +100,6 @@ class BasePage:
         for i in range(len(suggested_list)):
             suggest = suggested_list[i].get_attribute('textContent')
             if suggest == filling:
-                print(suggest)
                 suggested_list[i].click()
                 break
 
